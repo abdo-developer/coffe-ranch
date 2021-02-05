@@ -1,0 +1,269 @@
+
+/* Styles CSS For Page */
+
+@font-face {
+    src: url(../fonts/JF-Flat.ttf);
+    font-family: "ar-content";
+    font-size: 16px;
+}
+
+@font-face {
+    src: url(../fonts/Cairo-Bold.ttf);
+    font-family: "ar-heading";
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ar-heading";
+}
+
+body {
+    direction: rtl;
+    font-family: "ar-content";
+    font-family: 16px;
+    text-align: right !important;
+}
+
+header.top_header {
+    background-image: url(../images/bg-header.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.top_header nav ul {
+    padding: 0;
+}
+
+header.top_header nav li a {
+    color: black;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+header.top_header nav li a:hover,
+header.top_header nav li a:active,
+header.top_header nav li a:focus {
+    background-color: #B67D47;
+    border-radius: 5px;
+    color: white;
+}
+
+header.top_header .title h4 {
+    margin: 35px 0;
+}
+
+header.top_header .paragraph p {
+    margin-bottom: 35px;
+}
+
+header.top_header .link-contact a {
+    background-color: transparent;
+    border-radius: 0;
+    border: transparent;
+}
+
+header.top_header .link-contact a.btn-custom {
+    padding: 15px 30px;
+    background-color:  #B67D47;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+    border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+
+header.top_header .link-contact a.btn-custom:hover,
+header.top_header .link-contact a.btn-custom:active,
+header.top_header .link-contact a.btn-custom:focus {
+    background-color: rgb(214, 139, 0);
+}
+
+header.top_header .link-contact a.btn-custom svg {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.social-media ul {
+    padding: 0;
+    margin-top: 35px;
+}
+
+.social-media ul li {
+    margin-right: 0 !important;
+    margin-left: 12px;
+    background-color:  #B67D47;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.social-media ul li:hover,
+.social-media ul li:active,
+.social-media ul li:focus {
+    background-color: rgb(214, 139, 0);
+}
+
+.social-media ul li a {
+    color: #fff;
+    font-size: 22px;
+}
+
+.title-section h4 {
+    margin: 35px 0;
+}
+
+
+section.about-product .description {
+    margin-top: 3%;
+}
+
+section.about-product .title-heading h4 {
+    margin: 35px 0;
+}
+
+section.about-product .image img {
+    height: 450px;
+}
+
+section.features-product  {
+    background-color:  #B67D47;
+    padding: 15px 0;
+    margin-top: 25px;
+}
+
+section.features-product .title-column h4 {
+    margin: 20px 0;
+}
+
+section.features-product .image-icon img {
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+section.buy-now .card {
+    border-radius: 0;
+    margin: 20px 0;
+}
+
+section.buy-now .card img {
+    height: 250px;
+}
+
+section.buy-now a {
+    background-color: transparent;
+    border-radius: 0;
+    border: transparent;
+}
+
+section.buy-now a.btn-custom {
+    padding: 15px 20px;
+    background-color:  #B67D47;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+    border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+
+section.buy-now a.btn-custom:hover,
+section.buy-now a.btn-custom:active,
+section.buy-now a.btn-custom:focus {
+    background-color: rgb(214, 139, 0);
+}
+
+section.buy-now a.btn-custom svg {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+footer.footer-last {
+    background-color: rgb(248, 158, 73);
+    padding: 15px 0 0;
+}
+
+footer.footer-last .social-media ul {
+    margin-top: 5px;
+}
+
+footer.footer-last .copy-right h5 {
+    margin-top: 20px;
+    color: black;
+}
+
+/* Resposive page */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    button.navbar-toggler {
+        background-color: #B67D47;
+        color: #fff;
+    }
+
+    section.about-product .description {
+        text-align: center;
+    }
+
+    section.about-product .image img {
+        height: 270px;
+    }
+
+    header.top_header .link-contact a.btn-custom {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    footer.footer-last .copy-right h5 {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    button.navbar-toggler {
+        background-color: #B67D47;
+        color: #fff
+    }
+
+    section.about-product .description {
+        text-align: center;
+    }
+
+    section.buy-now .card {
+        margin-right: 20%;
+    }
+
+    footer.footer-last .copy-right h5 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    button.navbar-toggler {
+        background-color: #B67D47;
+        color: #fff
+    }
+
+    section.about-product .description {
+        text-align: center;
+    }
+
+    section.buy-now .card {
+        margin-right: 28%;
+    }
+
+    footer.footer-last .copy-right h5 {
+        text-align: center;
+    }
+    
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* goof */
+}
+
+@media (min-width: 1200px) {
+    /* very good */
+}
