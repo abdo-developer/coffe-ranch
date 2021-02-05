@@ -23,14 +23,7 @@ body {
     font-family: 16px;
     text-align: right !important;
 }
-
-/* header.top_header {
-    background-image: url(../images/bg-header.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
+/*  */
 header.top_header nav ul {
     padding: 0;
 }
