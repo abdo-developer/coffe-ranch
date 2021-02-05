@@ -57,6 +57,10 @@ header.top_header .paragraph p {
     margin-bottom: 35px;
 }
 
+.image img.rounded {
+    height: 360px;
+}
+
 header.top_header .link-contact a {
     background-color: transparent;
     border-radius: 0;
@@ -113,8 +117,16 @@ header.top_header .link-contact a.btn-custom svg {
 
 .title-section h4 {
     margin: 35px 0;
+    color: white;
 }
 
+.small-text {
+    color: white;
+}
+
+h4.custom-heading-title.text-center {
+    color: black;
+}
 
 section.about-product .description {
     margin-top: 3%;
@@ -136,6 +148,7 @@ section.features-product  {
 
 section.features-product .title-column h4 {
     margin: 20px 0;
+    color: white;
 }
 
 section.features-product .image-icon img {
@@ -218,6 +231,10 @@ footer.footer-last .copy-right h5 {
         text-align: center;
         font-size: 15px;
     }
+
+    .image img.rounded {
+        height: 280px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -230,12 +247,12 @@ footer.footer-last .copy-right h5 {
         text-align: center;
     }
 
-    section.buy-now .card {
-        margin-right: 20%;
-    }
-
     footer.footer-last .copy-right h5 {
         text-align: center;
+    }
+
+    .link-contact.text-center {
+        margin-bottom: 22px;
     }
 }
 
@@ -249,14 +266,17 @@ footer.footer-last .copy-right h5 {
         text-align: center;
     }
 
-    section.buy-now .card {
-        margin-right: 28%;
-    }
-
     footer.footer-last .copy-right h5 {
         text-align: center;
     }
     
+    .link-contact.text-center {
+        margin-bottom: 30px;
+    }
+
+    .image img.rounded {
+        margin-top: 20px;
+    }
     
 }
 
