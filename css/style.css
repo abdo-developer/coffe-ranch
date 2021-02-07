@@ -186,7 +186,7 @@ section.buy-now a.btn-custom svg {
 }
 
 footer.footer-last {
-    background-color: rgb(248, 158, 73);
+    background-color: #B67D47;
     padding: 15px 0 0;
 }
 
@@ -228,6 +228,30 @@ footer.footer-last .copy-right h5 {
     .image img.rounded {
         height: 280px;
     }
+
+    section.buy-now .card {
+        width: 80%;
+        margin-right: 25%;
+    }
+
+}
+
+@media (max-width: 525px) {
+    section.buy-now .card {
+        width: 70%;
+        margin-right: 25%;
+    }
+
+    section.buy-now a.btn-custom {
+        padding: 15px 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    section.buy-now .card {
+        width: 80%;
+        margin-right: 10%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -246,6 +270,15 @@ footer.footer-last .copy-right h5 {
 
     .link-contact.text-center {
         margin-bottom: 22px;
+    }
+
+    section.buy-now a.btn-custom {
+        margin-left: 0;
+    }
+
+    p.card-text {
+        font-size: 14px;
+        font-weight: bold;
     }
 }
 
